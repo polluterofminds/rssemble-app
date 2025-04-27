@@ -1,0 +1,6 @@
+{
+  "siteId": "3a3ca62f-717b-4bf5-9be3-c5e7d52c2b28",
+  "domain": "rssemble",
+  "buildCommand": "npm run build",
+  "buildDir": "./dist"
+}

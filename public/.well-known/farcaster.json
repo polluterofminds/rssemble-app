@@ -2,7 +2,7 @@
   "frame": {
     "version": "1",
     "name": "RSSemble",
-    "iconUrl": "https://yoink.party/logo.png",
+    "iconUrl": "https://cdn.orbiter.host/ipfs/bafkreic4v2joirflm26fcyqczm4l3ejsislnaiz7dldmqqkflx5wgsexhy",
     "homeUrl": "https://rssemble.com",
     "imageUrl": "https://cdn.orbiter.host/ipfs/bafkreicgshoh6j76pfdgwrlhsemwyv6wt5366wcoybxj3hzx5od7vreaji",
     "buttonTitle": "Start reading",
@@ -12,9 +12,14 @@
     "description": "A collorative RSS feed for Farcaster. Read your favorite Farcasters and add new feeds.",
     "ogImageUrl": "https://cdn.orbiter.host/ipfs/bafkreicgshoh6j76pfdgwrlhsemwyv6wt5366wcoybxj3hzx5od7vreaji",
     "ogTitle": "RSSemble",
-    "tagline": "A collorative RSS feed for Farcaster",
+    "tagline": "Collorative RSS feed",
     "tags": ["blog", "rss"],
-    "primaryCategory": "social", 
+    "primaryCategory": "social",
     "webhookUrl": "https://parallax-server-production.up.railway.app/rss-webhooks"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjQ4MjMsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg3RjlBNjk5MkE1NGRjMmYyM0YxMTA1OTIxNzE1QkQ2MTgxMUU1YjcxIn0",
+    "payload": "eyJkb21haW4iOiJyc3NlbWJsZS5jb20ifQ",
+    "signature": "MHhiMTZmYmE1NjU5NTVhYTZkYTNhYTdmMDc1MjRlM2FmYzUwMTc2OTJhYWE1NmFiNGQ3YWIyZGM5ZTQwNGUxZjdmNGM3YmEyNzYyZTY2YzliNzRlN2I5MzUzOGNmYzQ5MTE3OGQyMjkxMjQyM2Q0MTRiODM5NzA5NjVhMDM5ODFmOTFj"
   }
 }
