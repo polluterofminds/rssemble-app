@@ -27,14 +27,9 @@ const Blogs: React.FC = () => {
     writeContract,
     error: contractError,
   } = useWriteContract();
-  const { isSuccess: isConfirmed, isError, isPending } = useWaitForTransactionReceipt({
+  const { isSuccess: isConfirmed } = useWaitForTransactionReceipt({
     hash,
   });
-
-  console.log({isPending})
-  console.log({isError});
-
-  console.log({hash});
 
   useEffect(() => {
     if (hash && isConfirmed) {
@@ -139,20 +134,27 @@ const Blogs: React.FC = () => {
               transition-all duration-200 ease-in-out animate-slide-up"
             style={{ animationDelay: `${index * 0.05}s` }}
           >
-            <div className="flex items-center">
-              <div className="w-10 h-10 rounded bg-dark-600 flex items-center justify-center text-primary font-medium">
-                {blog.title.charAt(0)}
+            {/* Card layout restructured for better mobile responsiveness */}
+            <div className="flex flex-col sm:flex-row sm:items-center">
+              {/* Blog avatar */}
+              <div className="flex items-center">
+                <div className="w-10 h-10 rounded bg-dark-600 flex items-center justify-center text-primary font-medium">
+                  {blog.title.charAt(0)}
+                </div>
+                <div className="ml-3 flex-1 min-w-0">
+                  <Link to={`/feed/blog/${encodeURI(blog.title.replace(" ", "_"))}`}>
+                    <h3 className="text-dark-100 font-medium">{blog.title}</h3>
+                  </Link>
+                  <MiniLink href={blog.link} className="text-dark-400 text-xs truncate block max-w-full">
+                    {blog.link}
+                  </MiniLink>
+                </div>
               </div>
-              <div className="ml-3 flex-1 min-w-0">
-                <Link to={`/feed/blog/${encodeURI(blog.title.replace(" ", "_"))}`}>
-                  <h3 className="text-dark-100 font-medium">{blog.title}</h3>
-                </Link>
-                <MiniLink href={blog.link} className="text-dark-400 text-xs">{blog.link}</MiniLink>
-              </div>
-              <div className="ml-4">
-                <span className="px-2 py-1 bg-dark-600 rounded text-dark-300 text-xs">
-                  Most recent:{" "}
-                  {new Date(blog.latestPostDate).toLocaleDateString()}
+              
+              {/* Date tag moved to a new line on mobile, same line on larger screens */}
+              <div className="mt-2 sm:mt-0 sm:ml-auto">
+                <span className="px-2 py-1 bg-dark-600 rounded text-dark-300 text-xs inline-block">
+                  Most recent: {new Date(blog.latestPostDate).toLocaleDateString()}
                 </span>
               </div>
             </div>

@@ -26,7 +26,7 @@ export function MiniLink({ href, children, className }: { href: string; children
       </div>
     );
   }
-
+  
   return (
     <a
       href={href}

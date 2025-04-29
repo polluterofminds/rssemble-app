@@ -3,7 +3,7 @@
     "version": "1",
     "name": "RSSemble",
     "iconUrl": "https://cdn.orbiter.host/ipfs/bafkreic4v2joirflm26fcyqczm4l3ejsislnaiz7dldmqqkflx5wgsexhy",
-    "homeUrl": "https://rssemble.com",
+    "homeUrl": "https://www.rssemble.com",
     "imageUrl": "https://cdn.orbiter.host/ipfs/bafkreicgshoh6j76pfdgwrlhsemwyv6wt5366wcoybxj3hzx5od7vreaji",
     "buttonTitle": "Start reading",
     "splashImageUrl": "https://cdn.orbiter.host/ipfs/bafkreic4v2joirflm26fcyqczm4l3ejsislnaiz7dldmqqkflx5wgsexhy",
@@ -19,7 +19,7 @@
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjQ4MjMsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg3RjlBNjk5MkE1NGRjMmYyM0YxMTA1OTIxNzE1QkQ2MTgxMUU1YjcxIn0",
-    "payload": "eyJkb21haW4iOiJyc3NlbWJsZS5jb20ifQ",
-    "signature": "MHhiMTZmYmE1NjU5NTVhYTZkYTNhYTdmMDc1MjRlM2FmYzUwMTc2OTJhYWE1NmFiNGQ3YWIyZGM5ZTQwNGUxZjdmNGM3YmEyNzYyZTY2YzliNzRlN2I5MzUzOGNmYzQ5MTE3OGQyMjkxMjQyM2Q0MTRiODM5NzA5NjVhMDM5ODFmOTFj"
+    "payload": "eyJkb21haW4iOiJ3d3cucnNzZW1ibGUuY29tIn0",
+    "signature": "MHg1OTcwYjA1Y2ZhNjMyMzBmN2E3MWRjMWFmYzFiOTM3ZjAwYmNjN2E1YjJlYmJmMDI4ODBlYmQ0MTI1ZmQyYjQwMjI4YTQyZmMyNTdmMGNlNTY2ODE5NjhiNWUwMzA4MmVmMzQ4YTM5YWQ1OWQ4NTJmY2EyYjk4ZjcyOGVhMmFkYTFj"
   }
 }
