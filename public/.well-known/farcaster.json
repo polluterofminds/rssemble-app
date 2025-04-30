@@ -15,7 +15,7 @@
     "tagline": "Collorative RSS feed",
     "tags": ["blog", "rss"],
     "primaryCategory": "social",
-    "webhookUrl": "https://parallax-server-production.up.railway.app/rss-webhooks"
+    "webhookUrl": "https://rssemble-server-production.up.railway.app/webhooks"
   },
   "accountAssociation": {
     "header": "eyJmaWQiOjQ4MjMsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHg3RjlBNjk5MkE1NGRjMmYyM0YxMTA1OTIxNzE1QkQ2MTgxMUU1YjcxIn0",
